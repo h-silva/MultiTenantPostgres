@@ -1,0 +1,78 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+tenants:
+  datasources:
+    grupo-0:
+      jdbcUrl: jdbc:postgresql://localhost:5432/db0
+      driverClassName: org.postgresql.Driver
+      username: postgres
+      password: postgres
+      schema: sgpa_gis
+    grupo-1:
+      jdbcUrl: jdbc:postgresql://localhost:5432/db1
+      driverClassName: org.postgresql.Driver
+      username: postgres
+      password: postgres
+      schema: sgpa_gis
+    grupo-2:
+      jdbcUrl: jdbc:postgresql://localhost:5432/db2
+      driverClassName: org.postgresql.Driver
+      username: postgres
+      password: postgres
+      schema: sgpa_gis
+    grupo-3:
+      jdbcUrl: jdbc:postgresql://localhost:5432/db3
+      driverClassName: org.postgresql.Driver
+      username: postgres
+      password: postgres
+      schema: sgpa_gis
+    grupo-4:
+      jdbcUrl: jdbc:postgresql://localhost:5432/db4
+      driverClassName: org.postgresql.Driver
+      username: postgres
+      password: postgres
+      schema: sgpa_gis
+    grupo-5:
+      jdbcUrl: jdbc:postgresql://localhost:5432/db5
+      driverClassName: org.postgresql.Driver
+      username: postgres
+      password: postgres
+      schema: sgpa_gis
+    grupo-6:
+      jdbcUrl: jdbc:postgresql://localhost:5432/db6
+      driverClassName: org.postgresql.Driver
+      username: postgres
+      password: postgres
+      schema: sgpa_gis
+    grupo-7:
+      jdbcUrl: jdbc:postgresql://localhost:5432/db7
+      driverClassName: org.postgresql.Driver
+      username: postgres
+      password: postgres
+      schema: sgpa_gis
+    grupo-8:
+      jdbcUrl: jdbc:postgresql://localhost:5432/db8
+      driverClassName: org.postgresql.Driver
+      username: postgres
+      password: postgres
+      schema: sgpa_gis
+    grupo-9:
+      jdbcUrl: jdbc:postgresql://localhost:5432/db9
+      driverClassName: org.postgresql.Driver
+      username: postgres
+      password: postgres
+      schema: sgpa_gis
+    grupo-10:
+      jdbcUrl: jdbc:postgresql://localhost:5432/db10
+      driverClassName: org.postgresql.Driver
+      username: postgres
+      password: postgres
+      schema: sgpa_gis
+    grupo-11:
+      jdbcUrl: jdbc:postgresql://localhost:5432/db11
+      driverClassName: org.postgresql.Driver
+      username: postgres
+      password: postgres
+      schema: sgpa_gis
